@@ -1,0 +1,44 @@
+.list-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.list-item{
+    display: flex;
+    justify-content: space-between;
+    padding : 1rem;
+    border-radius: 10px;
+    width: 60%;
+    margin-bottom: 1rem;
+}
+
+button{
+    border: none;
+    border-radius: 10px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding :0.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: white;
+}
+
+p{
+    margin: 0;
+    padding-top: 0.5rem;
+}
+
+.list-item-complete button{
+    background-color: rgb(53, 121, 53);
+}
+
+.list-item-delete button{
+    background-color: rgb(100, 24, 24);
+}
